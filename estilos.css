@@ -597,3 +597,81 @@ form div button:hover {
 }
 
 /*FIN RETOS*/
+
+/*INICIO PERFIL*/
+
+.body-perfil{
+    font-family: 'DynaPuff', cursive;
+    background: #F7971E;  /* fallback for old browsers */
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-perfil-padre
+{
+    
+    padding:100px;
+
+}
+
+.container-perfil-hijo
+{
+    margin:3em;
+}
+
+#enlace{
+
+    font-size:2em;
+    text-decoration: none;
+    border-radius:10px;
+    cursor: pointer;
+    border:black;
+    color: #3a01f6;
+    background:linear-gradient(to right, #bdf71e, #26ff00, #bdf71e);
+    
+    
+
+}
+
+#enlace-btn{
+    font-size:2em;
+    font-family:'DynaPuff', cursive;
+    border-radius:10px;
+    background-color: rgb(216, 203, 28);
+    color: aliceblue;
+    cursor: pointer;
+    color: #3a01f6;
+    background:linear-gradient(to right, #bdf71e, #26ff00, #bdf71e);
+    
+
+}
+
+#version-app
+{
+    color: #3a01f6;
+    font-size: 1.1em;
+}
+
+#enlace:hover{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff; 
+}
+
+#enlace-btn:hover{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff; 
+}
+
+/*FIN PERFIL*/
