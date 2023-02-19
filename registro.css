@@ -58,6 +58,18 @@ input[type="date"]
 
 }
 
+.subir{
+    padding: 5px 10px;
+    background: #f55d3e;
+    color:#fff;
+    border:0px solid #fff;
+}
+ 
+.subir:hover{
+    color:#fff;
+    background: #f7cb15;
+}
+
 
 :root{
     --colorTextos:rgb(0, 38, 255);
